@@ -1,0 +1,17 @@
+---
+title: "Test"
+listing:
+  contents: "galleries/*.jpg"
+  type: grid
+  fields: [image, filename, title]
+  sort: "date desc"
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+
+This is a new Quarto project (book) created from markdown as a reprex.
+
+
+
+
