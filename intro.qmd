@@ -1,6 +1,8 @@
 ---
 title: "Test"
 listing:
+  id: test-gallery
+  template: gallery.ejs
   contents: "galleries/*.jpg"
   type: grid
   fields: [image, filename, title]
