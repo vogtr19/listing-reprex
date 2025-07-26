@@ -10,6 +10,8 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
+execute: 
+  enabled: true
 ---
 
 This is a new Quarto project (book) created from markdown as a reprex.
