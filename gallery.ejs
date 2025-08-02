@@ -33,9 +33,6 @@ getDesc = (path) => exif.parse(path).then((data) => data["ImageDescription"])
 ::: {}
 ![](<%= item.path %>){.grid-item .lightbox loading="lazy" group="quarto-grid-gallery"}
 :::
-::: {}
-
-${require("exifr").parse("galleries/img_4.png").then((data) => data["ImageDescription"])} 
 
 :::
 <% } %>
